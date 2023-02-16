@@ -1,0 +1,172 @@
+
+.logo{
+    color: rgb(245, 173, 6);
+    border-color: black ;
+    font-size: 25px;
+    letter-spacing: 8px;
+    text-shadow: 4px 4px 4px rgb(76, 76, 76);
+    cursor: pointer;
+ }
+ 
+ h3:hover{
+    color: black;
+    transform: .1px;
+ }
+
+.navbar {
+    width: 100%;
+    height: 45vh;
+    background: rgb(95, 160, 234);
+
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 4%;
+    padding-left: 3%;
+ }
+
+ nav ul li{
+    list-style-type: georgian;
+    display: inline-block;
+    padding: 8px 20px;
+ }
+ nav ul li a{
+    color: cornsilk;
+    font-weight: bold;
+    text-shadow: 4px 4px 4px gray, 5px 5px 5px rgba(0,0,0,.5);
+    text-decoration: none;
+}
+
+nav ul li a:hover{
+    color: rgb(22, 21, 21);
+    text-transform: uppercase;
+    transform: .2s;
+ }
+
+ .content{
+    position: absolute;
+    top: 50%;
+    left: 7%;
+ }
+
+ h2 {
+    font-size: 30px;
+    letter-spacing: 20px;
+    color: rgba(22, 21, 21, 0.801);
+ }
+
+ h1 {
+    color: cornsilk;
+    font-size: 45px;
+    text-align: left;
+    text-shadow: 7px 8px 6px gray, 5px 5px 5px rgba(0,0,0,.5);
+    margin: 0px 0px 18px;
+ }
+
+ h4 {
+    font-size: 15px;
+    text-align: right;
+    color: rgba(0, 0, 0, 0.866);
+ }
+
+ .objective{
+    width: 100%;
+    height: 40vh;
+    background-color: rgb(211, 230, 248);
+ }
+
+ .main{
+    width: 100%;
+    display: flex;
+    align-items: center;
+ }
+
+ .objtext h2{
+    font-size: 30px;
+    color:  rgb(245, 173, 6);
+    border-color: black;
+    text-align: left;
+    margin-top: 100px;
+    margin-bottom: 15px;
+    margin-left: 5%;
+ }
+
+ .objtext p{
+    font-size: 15px;
+    text-align: left;
+    margin-left: 5%;
+    letter-spacing: 1px;
+    line-height: 25px;
+    margin-top: 2%;
+    margin-bottom: 15px;
+ }
+
+ .objtext p:hover {
+    font-weight: bold;
+ }
+
+ .Trainings{
+    background-color:  rgb(211, 230, 248);
+    width: 100%;
+    height: 45vh;
+    display: flex;
+    flex-direction: column;
+ }
+
+ .Trainings h2{
+    font-size: 30px;
+    color:  rgb(245, 173, 6);
+    border-color: black;
+    text-align: left;
+    margin-left: 5%;
+    margin-bottom: 15px;
+ }
+
+ .Trainings ul li {
+    font-size: 15px;
+    text-align: left;
+    list-style: none;
+    margin-left: 2.5%;
+    letter-spacing: 1px;
+    line-height: 25px;
+ }
+
+ .Trainings ul li:hover {
+    color:  rgb(245, 173, 6);
+    font-weight: bold;
+    text-decoration-line: underline;
+ }
+
+ .contact{
+    background: rgb(211, 230, 248);
+    width: 100%;
+    height: 30vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+ }
+
+ .contact p{
+    color: rgb(245, 173, 6);;
+    font-size: 20px;
+    margin-bottom: 30px;
+    font-weight: bold;
+ }
+
+ .contact .button{
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    border-radius: 2px solid black;
+    padding: 10px;
+    border-radius: 5px;
+ }
+
+ .button:hover{
+    cursor: progress;
+    border: 5px solid black;
+
+ }
